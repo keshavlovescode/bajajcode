@@ -1,0 +1,107 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #0066cc;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .header input:focus {
+    border: 2px solid #0055a5;
+  }
+  
+  /* Filters section */
+  .filters {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .filter-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .filter-category label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .filter-category select {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .filter-category select:focus {
+    border-color: #0066cc;
+  }
+  
+  .filter-category input[type="radio"],
+  .filter-category input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Doctor list container */
+  #doctor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Doctor card styles */
+  .doctor-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .doctor-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Doctor name */
+  .doctor-card h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Specialty, Experience, Fee styles */
+  .doctor-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .doctor-card p span {
+    font-weight: bold;
+  }
+  
